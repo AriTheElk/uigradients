@@ -18,6 +18,14 @@ background-image: -webkit-linear-gradient(
   ${angle}deg,
   ${gradients[gradient][0]},
   ${gradients[gradient][1]});
+background-image: -moz-linear-gradient(
+  ${angle}deg,
+  ${gradients[gradient][0]},,
+  ${gradients[gradient][1]});
+background-image: -o-linear-gradient(
+  ${angle}deg,
+  ${gradients[gradient][0]},,
+  ${gradients[gradient][1]});
 background-image: linear-gradient(
   ${angle}deg,
   ${gradients[gradient][0]},

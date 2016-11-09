@@ -1,6 +1,6 @@
 {
   "name": "uigradients",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a uigradients.com generator for styled-components.",
   "main": "dist/uigradients.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "url": "git+https://github.com/garetmckinley/uigradients.git"
   },
   "author": "Garet McKinley",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.18.0",
     "babel-core": "^6.18.2",

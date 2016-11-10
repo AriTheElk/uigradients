@@ -23,6 +23,12 @@ class App extends Component {
     );
 }
 ```
+> ###### `cherry` is only one of the many presets provided by [_`uigradients`_](https://JSBros/uigradients)
+> A complete list of the gradient presets can be found [here](https://github.com/JSBros/uigradients/blob/master/src/gradients.js).
+> Test out these presets, or create your own! But be sure to 
+[**PR your creation**](https://github.com/JSBros/uigradients/compare) so the 
+rest of the community can benefit from your ascetic awesomeness! 
+
 
 ### Gradient Generator
 
@@ -71,7 +77,8 @@ const Pre = styled.pre`
 `;
 ```
 
-#### Or, you can override the built in Gradient component
+
+#### Or, you can override other properties on the Gradient component
 
 ``` jsx
 import { Gradient } from 'uigradients';

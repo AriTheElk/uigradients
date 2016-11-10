@@ -71,6 +71,10 @@ const Pre = styled.pre`
 `;
 ```
 
+> A complete list of the gradient presets can be found [here](https://github.com/JSBros/uigradients/blob/master/src/gradients.js).
+Test out the presets, or create your own! But be sure to 
+[**PR it**](https://github.com/JSBros/uigradients/compare)so everyone else can 
+benefit from your ascetic awesomeness! 
 #### Or, you can override the built in Gradient component
 
 ``` jsx

@@ -61,14 +61,9 @@ const Pre = styled.pre`
 #### And render the component
 
 ``` jsx
-import { generator } from 'uigradients';
-import styled from 'styled-components';
-
-const Pre = styled.pre`
-  ${generator({gradient: 'electric_violet'})}
-  border-radius: 4px;
-  display: block;
-`;
+<Pre>
+  This is what an electric_violet pre looks like!
+</Pre>
 ```
 
 #### Or, you can override the built in Gradient component

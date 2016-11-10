@@ -1,3 +1,4 @@
+// TODO: externalize this list in a JSON file
 const gradients = {
   a_lost_memory: ['#DE6262', '#FFB88C'],
   ali: ['#ff4b1f', '#1fddff'],

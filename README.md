@@ -1,4 +1,5 @@
-# uiGradients
+# uiGradients [![travis-ci build status](https://travis-ci.org/JSBros/uigradients.svg?branch=master)](https://travis-ci.org/JSBros/uigradients)
+
 <div align="center"><img src="http://i.giphy.com/3oz8xTRTgiIERV3Kms.gif" alt="uiGradients in action"/></div>
 
 ## Installation

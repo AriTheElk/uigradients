@@ -1,9 +1,5 @@
 language: node_js
 node_js:
   - "6"
-before_script:
-  - npm install -g yarn
-  - yarn install
-  - npm install -g eslint
 script: npm run lint
 

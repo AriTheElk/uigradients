@@ -1,5 +1,6 @@
 before_script:
-  - npm install
+  - npm install -g yarn
+  - yarn install
   - npm install -g eslint
 script: npm run lint
 

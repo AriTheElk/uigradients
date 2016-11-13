@@ -27,7 +27,7 @@ storiesOf('Gradient Component', module)
   .add('Color Previews', () => (
     <div>
       {GradientPreviews.map(function (value) {
-        return (<Preview>{value}</Preview>)
+        return (<Preview gradient={value}>{value}</Preview>)
       })}      
     </div>
   ));

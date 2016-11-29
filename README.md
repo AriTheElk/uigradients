@@ -1,6 +1,8 @@
-# uiGradients [![travis-ci build status](https://travis-ci.org/JSBros/uigradients.svg?branch=master)](https://travis-ci.org/JSBros/uigradients) [![Slack Status](https://slackin-xtuseyimsc.now.sh/badge.svg)](https://slackin-xtuseyimsc.now.sh/)
+[![travis-ci build status](https://travis-ci.org/JSBros/uigradients.svg?branch=master)](https://travis-ci.org/JSBros/uigradients) [![Slack Status](https://slackin-xtuseyimsc.now.sh/badge.svg)](https://slackin-xtuseyimsc.now.sh/)
 
-<div align="center"><img src="http://i.giphy.com/3oz8xTRTgiIERV3Kms.gif" alt="uiGradients in action"/></div>
+[![uigradients website banner](http://imgur.com/xPdyAx4.png)](https://jsbros.github.io/uigradients/)
+
+[![uigradients preview gradients](http://i.imgur.com/lFbfzII.png)](https://595f03bc-218b-4dc7-9045-df52791c557f.sbook.io/)
 
 ## Installation
 

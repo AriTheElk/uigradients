@@ -1,5 +1,7 @@
 # uiGradients [![travis-ci build status](https://travis-ci.org/JSBros/uigradients.svg?branch=master)](https://travis-ci.org/JSBros/uigradients) [![Slack Status](https://slackin-xtuseyimsc.now.sh/badge.svg)](https://slackin-xtuseyimsc.now.sh/)
 
+[![Join the chat at https://gitter.im/JSBros/uigradients](https://badges.gitter.im/JSBros/uigradients.svg)](https://gitter.im/JSBros/uigradients?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 <div align="center"><img src="http://i.giphy.com/3oz8xTRTgiIERV3Kms.gif" alt="uiGradients in action"/></div>
 
 ## Installation

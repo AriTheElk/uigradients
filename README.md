@@ -69,12 +69,7 @@ const Pre = styled.pre`
 
 #### And render the component
 
-``` jsx
-<Pre>
-  This is what an electric_violet pre looks like!
-</Pre>
-```
-
+![This is what an electric_violet pre looks like!](http://imgur.com/hNuroip.png)
 
 #### Or, you can override other properties on the Gradient component
 
@@ -91,11 +86,7 @@ const Header = styled(Gradient)`
 
 #### And render the component
 
-``` jsx
-<Header gradient="day_tripper">
-  Awesome!
-</Header>
-```
+![Awesome!](http://imgur.com/7G9C4eN.png)
 
 ## Author
 

@@ -3,7 +3,6 @@ import { storiesOf, action, linkTo } from '@kadira/storybook';
 import styled from 'styled-components';
 import { gradients } from '../src/gradients.js';
 import Gradient from '../src/components/gradient.js';
-import generator from '../src/generator.js';
 
 const Preview = styled(Gradient)`
   border-radius: 4px;

@@ -13,7 +13,8 @@ function GradientContainer(props) {
 GradientContainer.propTypes = {
   className: React.PropTypes.string,
   gradient: React.PropTypes.string,
-  angle: React.PropTypes.number
+  angle: React.PropTypes.number,
+  type: React.PropTypes.string
 };
 
 GradientContainer.defaultProps = {

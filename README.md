@@ -202,10 +202,6 @@ ${generator({
 
 Built by [Garet McKinley](https://github.com/garetmckinley)
 
-## Contributors
-
-[Matt Hamil](https://github.com/matthamil)
-
 ## License
 
 This package is released under the [MIT License](LICENSE)

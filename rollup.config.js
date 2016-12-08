@@ -34,6 +34,7 @@ const plugins = [
     },
   },
   babel({
+    include: 'src/**/*js',
     exclude: 'node_modules/**',
     babelrc: false,
     presets: [
@@ -49,7 +50,14 @@ const plugins = [
   inject({
     process: processShim,
   }),
-  json(),
+  json({
+    // All JSON files will be parsed by default,
+    // but you can also specifically include/exclude files
+    include: 'src/**/*.json',  // Default: undefined
+    exclude: [
+      'node_modules/**',
+    ],  // Default: undefined
+  }),
   nodeResolve(),
   replace({
     'process.env.NODE_ENV': JSON.stringify(prod ? 'production' : 'development'),

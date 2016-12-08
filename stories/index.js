@@ -24,11 +24,17 @@ map.forEach(function (value, key) {
 });
 
 storiesOf('Gradient Component', module)
-  .add('Color Previews', () => (
+  .add('Linear Gradient Previews', () => (
     <div>
-      {GradientPreviews.map(function (value) {
-        return (<Preview gradient={value}>{value}</Preview>)
-      })}      
+      {GradientPreviews.map(function (value, id) {
+        return (<Preview gradient={value} key={id}>{value}</Preview>)
+      })}
+    </div>
+  ))
+  .add('Radial Gradient Previews', () => (
+    <div>
+      {GradientPreviews.map(function (value, id) {
+        return (<Preview gradient={value} key={id} type={'radial'}>{value}</Preview>)
+      })}
     </div>
   ));
-

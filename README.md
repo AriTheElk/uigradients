@@ -30,7 +30,7 @@ class App extends Component {
 > A complete list of the gradient presets can be previewed [here](https://595f03bc-218b-4dc7-9045-df52791c557f.sbook.io/?selectedKind=Gradient%20Component&selectedStory=Color%20Previews&full=0&down=1&left=1&panelRight=0&downPanel=kadirahq%2Fstorybook-addon-actions%2Factions-panel).
 > Test out these presets, or create your own! But be sure to
 [**PR your creation**](https://github.com/JSBros/uigradients/compare) so the
-rest of the community can benefit from your ascetic awesomeness!
+rest of the community can benefit from your aesthetic awesomeness!
 
 ### Radial Gradient Component
 

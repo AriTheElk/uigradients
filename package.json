@@ -1,6 +1,6 @@
 {
   "name": "uigradients",
-  "version": "0.1.2",
+  "version": "0.2.1",
   "description": "a uigradients.com generator react & styled-components.",
   "main": "dist/uigradients.js",
   "scripts": {
@@ -9,7 +9,9 @@
     "build:dist": "rollup -c && rollup -c --environment PRODUCTION",
     "clean": "rm -rf dist/*",
     "lint": "eslint src",
-    "lint:fix": "eslint --fix src"
+    "lint:fix": "eslint --fix src",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "bugs": {
     "url": "https://garetmckinley.github.io/uigradients/issues"
@@ -22,12 +24,14 @@
   "author": "Garet McKinley",
   "license": "MIT",
   "devDependencies": {
+    "@kadira/storybook": "^2.21.0",
     "babel-cli": "^6.18.0",
     "babel-core": "^6.18.2",
     "babel-eslint": "^7.1.0",
     "babel-loader": "^6.2.7",
     "babel-plugin-add-module-exports": "^0.2.1",
     "babel-plugin-external-helpers": "^6.18.0",
+    "babel-preset-es2015-rollup": "^1.2.0",
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.16.0",
     "babel-preset-stage-2": "^6.18.0",
@@ -38,6 +42,7 @@
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.5.0",
     "react": "^15.3.2",
+    "react-dom": "^15.3.2",
     "rollup": "^0.36.3",
     "rollup-plugin-babel": "^2.6.1",
     "rollup-plugin-commonjs": "^5.0.5",

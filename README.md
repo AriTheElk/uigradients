@@ -2,7 +2,6 @@
 
 [![uigradients preview gradients](https://i.imgur.com/lFbfzII.png)](https://595f03bc-218b-4dc7-9045-df52791c557f.sbook.io/)
 
-[![uigradients preview gradients](http://i.imgur.com/lFbfzII.png)](https://595f03bc-218b-4dc7-9045-df52791c557f.sbook.io/)
 
 ## Installation
 

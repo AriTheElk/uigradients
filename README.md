@@ -1,8 +1,7 @@
-[![travis-ci build status](https://travis-ci.org/JSBros/uigradients.svg?branch=master)](https://travis-ci.org/JSBros/uigradients) [![Slack Status](https://slackin-xtuseyimsc.now.sh/badge.svg)](https://slackin-xtuseyimsc.now.sh/)
+[![uigradients website banner](https://imgur.com/xPdyAx4.png)](https://jsbros.github.io/uigradients/)
 
-[![uigradients website banner](http://imgur.com/xPdyAx4.png)](https://jsbros.github.io/uigradients/)
+[![uigradients preview gradients](https://i.imgur.com/lFbfzII.png)](https://595f03bc-218b-4dc7-9045-df52791c557f.sbook.io/)
 
-[![uigradients preview gradients](http://i.imgur.com/lFbfzII.png)](https://595f03bc-218b-4dc7-9045-df52791c557f.sbook.io/)
 
 ## Installation
 
@@ -140,7 +139,7 @@ const Pre = styled.pre`
 
 #### And render the component
 
-![This is what an electric_violet pre looks like!](http://imgur.com/hNuroip.png)
+![This is what an electric_violet pre looks like!](https://imgur.com/hNuroip.png)
 
 #### Or, you can override other properties on the Gradient component
 
@@ -157,7 +156,7 @@ const Header = styled(Gradient)`
 
 #### And render the component
 
-![Awesome!](http://imgur.com/7G9C4eN.png)
+![Awesome!](https://imgur.com/7G9C4eN.png)
 
 #### Or, you can generate a radial gradient
 
@@ -196,12 +195,11 @@ ${generator({
 
 #### And render the component
 
-![Custom radial gradient](http://i.imgur.com/ESjCRbI.jpg)
-
-## Author
-
-Built by [Garet McKinley](https://github.com/garetmckinley)
+![Custom radial gradient](https://i.imgur.com/ESjCRbI.jpg)
 
 ## License
 
 This package is released under the [MIT License](LICENSE)
+
+
+<img src="https://raw.githubusercontent.com/syntra/assets/master/syntra-sponsorship.svg?sanitize=true"/>

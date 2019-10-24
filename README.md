@@ -139,7 +139,7 @@ const Pre = styled.pre`
 
 #### And render the component
 
-![This is what an electric_violet pre looks like!](http://imgur.com/hNuroip.png)
+![This is what an electric_violet pre looks like!](https://imgur.com/hNuroip.png)
 
 #### Or, you can override other properties on the Gradient component
 
@@ -156,7 +156,7 @@ const Header = styled(Gradient)`
 
 #### And render the component
 
-![Awesome!](http://imgur.com/7G9C4eN.png)
+![Awesome!](https://imgur.com/7G9C4eN.png)
 
 #### Or, you can generate a radial gradient
 
@@ -195,7 +195,7 @@ ${generator({
 
 #### And render the component
 
-![Custom radial gradient](http://i.imgur.com/ESjCRbI.jpg)
+![Custom radial gradient](https://i.imgur.com/ESjCRbI.jpg)
 
 ## Author
 

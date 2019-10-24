@@ -197,10 +197,6 @@ ${generator({
 
 ![Custom radial gradient](https://i.imgur.com/ESjCRbI.jpg)
 
-## Author
-
-Built by [Garet McKinley](https://github.com/garetmckinley)
-
 ## License
 
 This package is released under the [MIT License](LICENSE)

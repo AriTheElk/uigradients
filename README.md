@@ -204,3 +204,6 @@ Built by [Garet McKinley](https://github.com/garetmckinley)
 ## License
 
 This package is released under the [MIT License](LICENSE)
+
+
+<img src="https://raw.githubusercontent.com/syntra/assets/master/syntra-sponsorship.svg?sanitize=true"/>

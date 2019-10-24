@@ -1,4 +1,4 @@
-import gradients from './gradient_list.json';
+import gradients from "./gradient_list.json";
 
 function randomGradientName() {
   const keys = Object.keys(gradients);
@@ -6,6 +6,4 @@ function randomGradientName() {
   return keys[index];
 }
 
-
 export { gradients, randomGradientName };
-

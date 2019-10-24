@@ -1,4 +1,4 @@
-[![uigradients website banner](https://imgur.com/xPdyAx4.png)](https://jsbros.github.io/uigradients/)
+[![uigradients website banner](https://raw.githubusercontent.com/garetmckinley/project-assets/master/uigradients/header.svg?sanitize=true)](https://jsbros.github.io/uigradients/)
 
 [![uigradients preview gradients](https://i.imgur.com/lFbfzII.png)](https://595f03bc-218b-4dc7-9045-df52791c557f.sbook.io/)
 

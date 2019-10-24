@@ -1,12 +1,12 @@
 {
   "presets": [
-    "latest",
-    "react",
-    "stage-2"
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "entry"
+      }
+    ],
+    "@babel/preset-react"
   ],
-  "ignore": [
-    "node_modules/**"
-  ]
+  "ignore": ["node_modules/**"]
 }
-
-

@@ -1,5 +1,5 @@
 import React from "react";
-import { storiesOf, action, linkTo } from "@kadira/storybook";
+import { storiesOf } from "@storybook/react";
 import styled from "styled-components";
 import { gradients } from "../src/gradients.js";
 import Gradient from "../src/components/gradient.js";

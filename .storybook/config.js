@@ -1,7 +1,3 @@
-import { configure } from '@kadira/storybook';
+import { configure } from "@storybook/react";
 
-function loadStories() {
-  require('../stories');
-}
-
-configure(loadStories, module);
+configure(require.context("../src", true, /\.stories\.js$/), module);

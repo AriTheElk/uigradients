@@ -1,5 +1,12 @@
 [![uigradients website banner](https://raw.githubusercontent.com/garetmckinley/project-assets/master/uigradients/header.svg?sanitize=true)](https://jsbros.github.io/uigradients/)
 
+<p align="center">
+  <img alt="CircleCI" src="https://img.shields.io/circleci/build/github/garetmckinley/uigradients?style=for-the-badge">
+  <img alt="npm" src="https://img.shields.io/npm/v/uigradients?style=for-the-badge">
+  <img alt="npm" src="https://img.shields.io/npm/dt/uigradients?color=dodgerblue&label=Installs&style=for-the-badge">
+  <img alt="GitHub" src="https://img.shields.io/github/license/garetmckinley/uigradients?color=mediumslateblue&style=for-the-badge">
+</p>
+
 [![uigradients preview gradients](https://i.imgur.com/lFbfzII.png)](https://595f03bc-218b-4dc7-9045-df52791c557f.sbook.io/)
 
 

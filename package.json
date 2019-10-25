@@ -11,7 +11,8 @@
     "lint": "eslint src",
     "lint:fix": "eslint --fix src",
     "storybook": "start-storybook -p 6006 --docs",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "bugs": {
     "url": "https://garetmckinley.github.io/uigradients/issues"
@@ -37,6 +38,7 @@
     "@storybook/addon-knobs": "^5.2.5",
     "@storybook/addon-links": "^5.2.5",
     "@storybook/react": "^5.2.5",
+    "@storybook/storybook-deployer": "^2.8.1",
     "@storybook/theming": "^5.2.5",
     "babel-loader": "^8.0.6",
     "babel-plugin-add-module-exports": "^1.0.2",

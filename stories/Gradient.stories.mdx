@@ -36,13 +36,13 @@ The de-facto drop-in component for all your gradient needs.
 - If you do not wrap your components in a `<GradientProvider/>`, the default presets will be used.
 - You do not need more than one `<GradientProvider/>`. You can wrap your entire app in one and the presets will be available to all your instances of `<Gradient/>`.
 - You can nest `<GradientProvider/>` if you need more presets to be available to only specific parts of your app.
-- If you do not specify a preset `name` on the `<Gradient/>`, a random preset will be used.
+- If you do not specify a `preset` on the `<Gradient/>`, a random preset will be used.
 
 ## Linear Gradient
 
 <Preview>
   <Story name="Linear Gradient">
-    <Gradient gradient="tranquil"></Gradient>
+    <Gradient preset="tranquil"></Gradient>
   </Story>
 </Preview>
 
@@ -50,7 +50,7 @@ The de-facto drop-in component for all your gradient needs.
 
 <Preview>
   <Story name="Radial Gradient">
-    <Gradient gradient="tranquil" type="radial"></Gradient>
+    <Gradient preset="tranquil" type="radial"></Gradient>
   </Story>
 </Preview>
 
@@ -58,7 +58,7 @@ The de-facto drop-in component for all your gradient needs.
 
 <Preview>
   <Story name="Custom Angle">
-    <Gradient gradient="tranquil" angle="0"></Gradient>
+    <Gradient preset="tranquil" angle="0"></Gradient>
   </Story>
 </Preview>
 
@@ -66,7 +66,7 @@ The de-facto drop-in component for all your gradient needs.
 
 <Preview>
   <Story name="Override Preset Color">
-    <Gradient gradient="tranquil" start="rgba(0,0,0,0)"></Gradient>
+    <Gradient preset="tranquil" start="rgba(0,0,0,0)"></Gradient>
   </Story>
 </Preview>
 
@@ -74,7 +74,7 @@ The de-facto drop-in component for all your gradient needs.
 
 <Preview>
   <Story name="Scale">
-    <Gradient gradient="tranquil" type="radial" scale="200%"></Gradient>
+    <Gradient preset="tranquil" type="radial" scale="200%"></Gradient>
   </Story>
 </Preview>
 
@@ -85,10 +85,10 @@ Text masking allows you to create gradient colored text. It gracefully falls bac
 <Preview>
   <Story name="Text Masking">
     <>
-      <Gradient gradient="timber" textMask>
+      <Gradient preset="timber" textMask>
         Linear Gradient Text
       </Gradient>
-      <Gradient gradient="timber" type="radial" textMask>
+      <Gradient preset="timber" type="radial" textMask>
         Radial Gradient Text
       </Gradient>
     </>

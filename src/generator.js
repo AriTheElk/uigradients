@@ -73,16 +73,16 @@ function generateScale(scale) {
 }
 
 function generator(props = {}) {
-  let gradient = "";
+  let preset = "";
   let angle = -90;
   const styles = [];
   if (!props.presets) {
     return null;
   }
-  if (props.gradient === undefined) {
-    gradient = randomGradientName(props.presets);
+  if (props.preset === undefined) {
+    preset = randomGradientName(props.presets);
   } else {
-    gradient = props.gradient;
+    preset = props.preset;
   }
   if (props.angle !== undefined) {
     angle = props.angle;
@@ -96,31 +96,31 @@ function generator(props = {}) {
   }
   if (type === "radial") {
     const config = configRadialGradientOptions(options);
-    styles.push(generateRadialGradientCss(config, gradients[gradient]));
+    styles.push(generateRadialGradientCss(config, gradients[preset]));
   } else {
     styles.push(css`
-      background-color: ${gradients[gradient][0]};
+      background-color: ${gradients[preset][0]};
       background-image: -webkit-linear-gradient(
         ${angle}deg,
-        ${gradients[gradient][0]},
-        ${gradients[gradient][1]}
+        ${gradients[preset][0]},
+        ${gradients[preset][1]}
       );
       background-image: -moz-linear-gradient(
         ${angle}deg,
-        ${gradients[gradient][0]},
+        ${gradients[preset][0]},
         ,
-        ${gradients[gradient][1]}
+        ${gradients[preset][1]}
       );
       background-image: -o-linear-gradient(
         ${angle}deg,
-        ${gradients[gradient][0]},
+        ${gradients[preset][0]},
         ,
-        ${gradients[gradient][1]}
+        ${gradients[preset][1]}
       );
       background-image: linear-gradient(
         ${angle}deg,
-        ${gradients[gradient][0]},
-        ${gradients[gradient][1]}
+        ${gradients[preset][0]},
+        ${gradients[preset][1]}
       );
     `);
   }

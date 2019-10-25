@@ -40,7 +40,7 @@ Out of the box, uigradients ships with the lovely gradient library found at <a h
     <Wrapper>
       {listGradients().map(function(value, id) {
         return (
-          <StyledGradient gradient={value} key={id} type="linear">
+          <StyledGradient preset={value} key={id} type="linear">
             {value}
           </StyledGradient>
         );

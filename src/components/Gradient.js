@@ -12,7 +12,7 @@ function GradientContainer(props) {
 
 GradientContainer.propTypes = {
   className: PropTypes.string,
-  gradient: PropTypes.string,
+  preset: PropTypes.string,
   angle: PropTypes.number,
   type: PropTypes.string,
   textMask: PropTypes.bool,
@@ -26,7 +26,6 @@ GradientContainer.defaultProps = {
 
 const Gradient = styled(GradientContainer)`
   ${props => (props ? generator(props) : generator())}
-  content: '${props => props.name}';
 `;
 
 export default withPresets(Gradient);

@@ -6,4 +6,15 @@ function randomGradientName() {
   return keys[index];
 }
 
-export { gradients, randomGradientName };
+function listGradients() {
+  const map = new Map(Object.entries(gradients));
+  const GradientPreviews = [];
+
+  map.forEach(function(value, key) {
+    GradientPreviews.push(key);
+  });
+
+  return GradientPreviews;
+}
+
+export { gradients, listGradients, randomGradientName };

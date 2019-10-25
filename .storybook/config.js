@@ -1,7 +1,11 @@
-import { configure } from "@storybook/react";
+import { configure, addParameters } from "@storybook/react";
+// import { themes } from "@storybook/theming";
+import theme from "./theme";
 
-function loadStories() {
-  require("../stories");
-}
+addParameters({
+  options: {
+    theme,
+  },
+});
 
-configure(loadStories, module);
+configure(require.context("../stories", true, /.(js|mdx)$/), module);

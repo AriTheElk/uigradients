@@ -10,7 +10,7 @@
     "clean": "rm -rf dist/*",
     "lint": "eslint src",
     "lint:fix": "eslint --fix src",
-    "storybook": "start-storybook -p 6006",
+    "storybook": "start-storybook -p 6006 --docs",
     "build-storybook": "build-storybook"
   },
   "bugs": {
@@ -23,25 +23,34 @@
   },
   "author": "Garet McKinley",
   "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.0.0",
+    "styled-components": ">=2.0.0"
+  },
   "devDependencies": {
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
     "@storybook/addon-actions": "^5.2.5",
+    "@storybook/addon-docs": "^5.2.5",
     "@storybook/addon-knobs": "^5.2.5",
     "@storybook/addon-links": "^5.2.5",
     "@storybook/react": "^5.2.5",
+    "@storybook/theming": "^5.2.5",
     "babel-loader": "^8.0.6",
     "babel-plugin-add-module-exports": "^1.0.2",
     "babel-plugin-external-helpers": "^6.18.0",
     "babel-preset-es2015-rollup": "^3.0.0",
     "eslint": "^6.5.1",
     "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-flowtype-errors": "^4.1.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
+    "jscodeshift": "^0.6.4",
+    "prop-types": "^15.7.2",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "rollup": "^0.36.3",
@@ -54,9 +63,5 @@
     "rollup-plugin-uglify": "^1.0.1",
     "styled-components": "^4.4.0"
   },
-  "dependencies": {
-    "eslint-config-prettier": "^6.4.0",
-    "react": "^15.3.2",
-    "styled-components": "^1.0.10"
-  }
+  "dependencies": {}
 }

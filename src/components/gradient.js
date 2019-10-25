@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import PropTypes from "prop-types";
 import styled from "styled-components";
 import { randomGradientName } from "../gradients";
 import generator from "../generator";
@@ -10,10 +11,10 @@ function GradientContainer(props) {
 }
 
 GradientContainer.propTypes = {
-  className: React.PropTypes.string,
-  gradient: React.PropTypes.string,
-  angle: React.PropTypes.number,
-  type: React.PropTypes.string,
+  className: PropTypes.string,
+  gradient: PropTypes.string,
+  angle: PropTypes.number,
+  type: PropTypes.string,
 };
 
 GradientContainer.defaultProps = {

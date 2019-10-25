@@ -91,6 +91,9 @@ function generator(props = {}) {
   if (scale) {
     styles.push(generateScale(scale));
   }
+  if (textMask) {
+    styles.push(generateTextMask());
+  }
   if (type === "radial") {
     const config = configRadialGradientOptions(options);
     styles.push(generateRadialGradientCss(config, gradients[gradient]));
@@ -119,7 +122,6 @@ function generator(props = {}) {
         ${gradients[gradient][0]},
         ${gradients[gradient][1]}
       );
-      ${textMask && generateTextMask()};
     `);
   }
   return styles;

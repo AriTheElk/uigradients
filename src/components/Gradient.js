@@ -15,11 +15,13 @@ GradientContainer.propTypes = {
   gradient: PropTypes.string,
   angle: PropTypes.number,
   type: PropTypes.string,
+  textMask: PropTypes.bool,
 };
 
 GradientContainer.defaultProps = {
   gradient: randomGradientName(),
   angle: -90,
+  textMask: false,
 };
 
 const Gradient = styled(GradientContainer)`

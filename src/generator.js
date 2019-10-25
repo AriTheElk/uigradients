@@ -58,6 +58,13 @@ function configRadialGradientOptions(options = {}) {
   return radialConfig;
 }
 
+function generateTextMask() {
+  return css`
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  `;
+}
+
 function generator(props = {}) {
   let gradient = "";
   let angle = -90;
@@ -69,7 +76,7 @@ function generator(props = {}) {
   if (props.angle !== undefined) {
     angle = props.angle;
   }
-  const { type, options } = props;
+  const { type, options, textMask } = props;
   if (type === "radial") {
     const config = configRadialGradientOptions(options);
     return generateRadialGradientCss(config, gradients[gradient]);
@@ -98,6 +105,7 @@ function generator(props = {}) {
       ${gradients[gradient][0]},
       ${gradients[gradient][1]}
     );
+    ${textMask && generateTextMask()}
   `;
 }
 

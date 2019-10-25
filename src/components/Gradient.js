@@ -10,22 +10,22 @@ function GradientContainer(props) {
   return <div {...rest} />;
 }
 
-GradientContainer.propTypes = {
+const Gradient = styled(GradientContainer)`
+  ${props => generator(props)}
+`;
+
+Gradient.propTypes = {
   className: PropTypes.string,
   preset: PropTypes.string,
-  angle: PropTypes.number,
+  angle: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
   type: PropTypes.string,
   textMask: PropTypes.bool,
   scale: PropTypes.string,
 };
 
-GradientContainer.defaultProps = {
+Gradient.defaultProps = {
   angle: -90,
   textMask: false,
 };
-
-const Gradient = styled(GradientContainer)`
-  ${props => (props ? generator(props) : generator())}
-`;
 
 export default withPresets(Gradient);

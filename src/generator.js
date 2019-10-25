@@ -1,130 +1,92 @@
 import { css } from "styled-components";
-import { gradients, randomGradientName } from "./gradients";
 
-function generateRadialGradientCss(options, gradientColors) {
-  const { shape, position, extent, colorStops } = options;
-  return css`
+export const linearGradient = ({ presets, preset, angle }) => css`
+  background-color: ${presets[preset][0]};
+  background-image: -webkit-linear-gradient(
+    ${angle}deg,
+    ${presets[preset][0]},
+    ${presets[preset][1]}
+  );
+  background-image: -moz-linear-gradient(
+    ${angle}deg,
+    ${presets[preset][0]},
+    ${presets[preset][1]}
+  );
+  background-image: -o-linear-gradient(
+    ${angle}deg,
+    ${presets[preset][0]},
+    ${presets[preset][1]}
+  );
+  background-image: linear-gradient(
+    ${angle}deg,
+    ${presets[preset][0]},
+    ${presets[preset][1]}
+  );
+`;
+
+export const radialGradient = ({
+  presets,
+  preset,
+  extent,
+  shape = "circle",
+  position = "center",
+}) =>
+  css`
     background-image: -webkit-radial-gradient(
       ${shape} ${extent} at ${position},
-      ${gradientColors[0]} ${colorStops[0]},
-      ${gradientColors[1]} ${colorStops[1]}
+      ${presets[preset][0]},
+      ${presets[preset][1]}
     );
     background-image: -moz-radial-gradient(
       ${shape} ${extent} at ${position},
-      ${gradientColors[0]} ${colorStops[0]},
-      ${gradientColors[1]} ${colorStops[1]}
+      ${presets[preset][0]},
+      ${presets[preset][1]}
     );
     background-image: -o-radial-gradient(
       ${shape} ${extent} at ${position},
-      ${gradientColors[0]} ${colorStops[0]},
-      ${gradientColors[1]} ${colorStops[1]}
+      ${presets[preset][0]},
+      ${presets[preset][1]}
     );
     background-image: radial-gradient(
       ${shape} ${extent} at ${position},
-      ${gradientColors[0]} ${colorStops[0]},
-      ${gradientColors[1]} ${colorStops[1]}
+      ${presets[preset][0]},
+      ${presets[preset][1]}
     );
     background-position: center;
   `;
-}
 
-function configRadialGradientOptions(options = {}) {
-  const { position, shape, colorStops, extent } = options;
-  const radialConfig = {};
-  if (position) {
-    radialConfig.position = position;
-  } else {
-    radialConfig.position = "center";
-  }
-  if (shape && (shape === "circle" || shape === "ellipse")) {
-    radialConfig.shape = shape;
-  } else {
-    radialConfig.shape = "circle";
-  }
-  if (Array.isArray(colorStops)) {
-    radialConfig.colorStops = colorStops;
-  } else {
-    radialConfig.colorStops = ["", ""];
-  }
-  if (
-    extent === "closest-side" ||
-    extent === "closest-corner" ||
-    extent === "farthest-side" ||
-    extent === "farthest-corner"
-  ) {
-    radialConfig.extent = extent;
-  } else {
-    radialConfig.extent = "";
-  }
-  return radialConfig;
-}
+export const gradientTextMask = () => css`
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+`;
 
-function generateTextMask() {
-  return css`
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  `;
-}
+export const gradientScale = scale => css`
+  background-size: ${scale};
+`;
 
-function generateScale(scale) {
-  return css`
-    background-size: ${scale};
-  `;
-}
+const generator = (props = {}) => {
+  const { presets, type, textMask, scale } = props;
 
-function generator(props = {}) {
-  let preset = "";
-  let angle = -90;
+  // This is the array of css styles we'll return later
   const styles = [];
-  if (!props.presets) {
+
+  if (!presets) {
     return null;
   }
-  if (props.preset === undefined) {
-    preset = randomGradientName(props.presets);
-  } else {
-    preset = props.preset;
-  }
-  if (props.angle !== undefined) {
-    angle = props.angle;
-  }
-  const { type, options, textMask, scale } = props;
+
   if (scale) {
-    styles.push(generateScale(scale));
+    styles.push(gradientScale(scale));
   }
+
   if (textMask) {
-    styles.push(generateTextMask());
+    styles.push(gradientTextMask());
   }
-  if (type === "radial") {
-    const config = configRadialGradientOptions(options);
-    styles.push(generateRadialGradientCss(config, gradients[preset]));
-  } else {
-    styles.push(css`
-      background-color: ${gradients[preset][0]};
-      background-image: -webkit-linear-gradient(
-        ${angle}deg,
-        ${gradients[preset][0]},
-        ${gradients[preset][1]}
-      );
-      background-image: -moz-linear-gradient(
-        ${angle}deg,
-        ${gradients[preset][0]},
-        ,
-        ${gradients[preset][1]}
-      );
-      background-image: -o-linear-gradient(
-        ${angle}deg,
-        ${gradients[preset][0]},
-        ,
-        ${gradients[preset][1]}
-      );
-      background-image: linear-gradient(
-        ${angle}deg,
-        ${gradients[preset][0]},
-        ${gradients[preset][1]}
-      );
-    `);
-  }
+
+  styles.push(
+    type === "radial" ? radialGradient(props) : linearGradient(props)
+  );
+
   return styles;
-}
+};
 
 export default generator;

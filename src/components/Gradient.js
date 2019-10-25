@@ -16,6 +16,7 @@ GradientContainer.propTypes = {
   angle: PropTypes.number,
   type: PropTypes.string,
   textMask: PropTypes.bool,
+  scale: PropTypes.string,
 };
 
 GradientContainer.defaultProps = {

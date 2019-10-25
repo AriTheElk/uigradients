@@ -24,6 +24,7 @@ function generateRadialGradientCss(options, gradientColors) {
       ${gradientColors[0]} ${colorStops[0]},
       ${gradientColors[1]} ${colorStops[1]}
     );
+    background-position: center;
   `;
 }
 
@@ -65,9 +66,16 @@ function generateTextMask() {
   `;
 }
 
+function generateScale(scale) {
+  return css`
+    background-size: ${scale};
+  `;
+}
+
 function generator(props = {}) {
   let gradient = "";
   let angle = -90;
+  const styles = [];
   if (!props.presets) {
     return null;
   }
@@ -79,37 +87,42 @@ function generator(props = {}) {
   if (props.angle !== undefined) {
     angle = props.angle;
   }
-  const { type, options, textMask } = props;
+  const { type, options, textMask, scale } = props;
+  if (scale) {
+    styles.push(generateScale(scale));
+  }
   if (type === "radial") {
     const config = configRadialGradientOptions(options);
-    return generateRadialGradientCss(config, gradients[gradient]);
+    styles.push(generateRadialGradientCss(config, gradients[gradient]));
+  } else {
+    styles.push(css`
+      background-color: ${gradients[gradient][0]};
+      background-image: -webkit-linear-gradient(
+        ${angle}deg,
+        ${gradients[gradient][0]},
+        ${gradients[gradient][1]}
+      );
+      background-image: -moz-linear-gradient(
+        ${angle}deg,
+        ${gradients[gradient][0]},
+        ,
+        ${gradients[gradient][1]}
+      );
+      background-image: -o-linear-gradient(
+        ${angle}deg,
+        ${gradients[gradient][0]},
+        ,
+        ${gradients[gradient][1]}
+      );
+      background-image: linear-gradient(
+        ${angle}deg,
+        ${gradients[gradient][0]},
+        ${gradients[gradient][1]}
+      );
+      ${textMask && generateTextMask()};
+    `);
   }
-  return css`
-    background-color: ${gradients[gradient][0]};
-    background-image: -webkit-linear-gradient(
-      ${angle}deg,
-      ${gradients[gradient][0]},
-      ${gradients[gradient][1]}
-    );
-    background-image: -moz-linear-gradient(
-      ${angle}deg,
-      ${gradients[gradient][0]},
-      ,
-      ${gradients[gradient][1]}
-    );
-    background-image: -o-linear-gradient(
-      ${angle}deg,
-      ${gradients[gradient][0]},
-      ,
-      ${gradients[gradient][1]}
-    );
-    background-image: linear-gradient(
-      ${angle}deg,
-      ${gradients[gradient][0]},
-      ${gradients[gradient][1]}
-    );
-    ${textMask && generateTextMask()}
-  `;
+  return styles;
 }
 
 export default generator;

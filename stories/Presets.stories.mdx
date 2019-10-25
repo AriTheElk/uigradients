@@ -1,0 +1,58 @@
+import { Meta, Story, Preview } from "@storybook/addon-docs/blocks";
+import styled from "styled-components";
+
+import Gradient from "../src/components/Gradient.js";
+import { listGradients } from "../src/gradients.js";
+
+export const Wrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 600px;
+  overflow: auto;
+`;
+
+export const StyledGradient = styled(Gradient)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+  width: 30%;
+  height: 100px;
+  text-align: center;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+`;
+
+<Meta title="Documentation|Presets" component={Gradient} />
+
+# Default Gradient Presets
+
+Out of the box, uigradients ships with the lovely gradient library found at <a href="http://uigradients.com" target="_blank">uigradients.com</a>.
+
+## Previews
+
+<Preview>
+  <Story name="Default Presets">
+    <Wrapper>
+      {listGradients().map(function(value, id) {
+        return (
+          <StyledGradient gradient={value} key={id} type="linear">
+            {value}
+          </StyledGradient>
+        );
+      })}
+    </Wrapper>
+  </Story>
+</Preview>
+
+# Custom Presets
+
+To create custom presets, you must use a `GradientProvider`. Press the `Show code` button on the example below to see bare bones usage of a `GradientProvider`.
+
+<Preview>
+  <Story name="Custom Presets"></Story>
+</Preview>

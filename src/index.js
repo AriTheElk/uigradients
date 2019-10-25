@@ -1,4 +1,5 @@
 import generator from "./generator";
 import Gradient from "./components/Gradient";
+import withPreset from "./hoc/withPresets";
 
-export { generator, Gradient };
+export { generator, Gradient, withPreset };

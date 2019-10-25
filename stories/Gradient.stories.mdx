@@ -31,6 +31,13 @@ export const Gradient = styled(StandardGradient)`
 
 The de-facto drop-in component for all your gradient needs.
 
+## Overview
+
+- If you do not wrap your components in a `<GradientProvider/>`, the default presets will be used.
+- You do not need more than one `<GradientProvider/>`. You can wrap your entire app in one and the presets will be available to all your instances of `<Gradient/>`.
+- You can nest `<GradientProvider/>` if you need more presets to be available to only specific parts of your app.
+- If you do not specify a preset `name` on the `<Gradient/>`, a random preset will be used.
+
 ## Linear Gradient
 
 <Preview>

@@ -68,8 +68,11 @@ function generateTextMask() {
 function generator(props = {}) {
   let gradient = "";
   let angle = -90;
+  if (!props.presets) {
+    return null;
+  }
   if (props.gradient === undefined) {
-    gradient = randomGradientName();
+    gradient = randomGradientName(props.presets);
   } else {
     gradient = props.gradient;
   }

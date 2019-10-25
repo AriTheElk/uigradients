@@ -1,0 +1,43 @@
+import { Meta, Story, Preview } from "@storybook/addon-docs/blocks";
+import styled from "styled-components";
+
+import GradientProvider from "../src/components/GradientProvider.js";
+import Gradient from "../src/components/Gradient.js";
+import { listGradients } from "../src/gradients.js";
+
+export const Wrapper = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 600px;
+  overflow: auto;
+`;
+
+export const StyledGradient = styled(Gradient)`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  font-family: sans-serif;
+  margin-bottom: 30px;
+  width: 30%;
+  height: 100px;
+  text-align: center;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
+`;
+
+<Meta title="Documentation|GradientProvider" component={Gradient} />
+
+# Default Gradient Presets
+
+Out of the box, uigradients ships with the lovely gradient library found at <a href="http://uigradients.com" target="_blank">uigradients.com</a>.
+
+<Preview>
+  <Story name="Usage">
+    <GradientProvider presets={{ alihossein: ["#f7ff00", "#db36a4"] }}>
+      <Gradient>Test</Gradient>
+    </GradientProvider>
+  </Story>
+</Preview>

@@ -1,7 +1,7 @@
 import gradients from "./gradient_list.json";
 
-function randomGradientName() {
-  const keys = Object.keys(gradients);
+function randomGradientName(presets) {
+  const keys = Object.keys(presets);
   const index = Math.floor(Math.random() * keys.length);
   return keys[index];
 }

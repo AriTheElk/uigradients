@@ -34,6 +34,7 @@
     "@babel/preset-env": "^7.6.3",
     "@babel/preset-react": "^7.6.3",
     "@storybook/addon-actions": "^5.2.5",
+    "@storybook/addon-console": "^1.2.1",
     "@storybook/addon-docs": "^5.2.5",
     "@storybook/addon-knobs": "^5.2.5",
     "@storybook/addon-links": "^5.2.5",
@@ -65,5 +66,7 @@
     "rollup-plugin-uglify": "^1.0.1",
     "styled-components": "^4.4.0"
   },
-  "dependencies": {}
+  "dependencies": {
+    "memoize-one": "^5.1.1"
+  }
 }

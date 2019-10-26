@@ -1,4 +1,4 @@
-[![uigradients website banner](https://raw.githubusercontent.com/garetmckinley/project-assets/master/uigradients/header.svg?sanitize=true)](https://jsbros.github.io/uigradients/)
+<img src="https://raw.githubusercontent.com/garetmckinley/project-assets/master/uigradients/header.svg?sanitize=true" alt="UIGradients Logo" id="dracula-invert" />
 
 <p align="center">
   <img alt="CircleCI" src="https://img.shields.io/circleci/build/github/garetmckinley/uigradients?style=for-the-badge">

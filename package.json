@@ -1,6 +1,6 @@
 {
   "name": "uigradients",
-  "version": "0.2.1",
+  "version": "1.0.0",
   "description": "a uigradients.com generator react & styled-components.",
   "source": "src/index.js",
   "main": "dist/uigradients.js",

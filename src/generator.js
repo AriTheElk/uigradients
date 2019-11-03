@@ -1,26 +1,26 @@
 import { css } from "styled-components";
 
-export const linearGradient = ({ presets, preset, angle }) => css`
-  background-color: ${presets[preset].start};
+export const linearGradient = ({ presets, preset, angle, start, end }) => css`
+  background-color: ${start || presets[preset].start};
   background-image: -webkit-linear-gradient(
     ${angle}deg,
-    ${presets[preset].start},
-    ${presets[preset].end}
+    ${start || presets[preset].start},
+    ${end || presets[preset].end}
   );
   background-image: -moz-linear-gradient(
     ${angle}deg,
-    ${presets[preset].start},
-    ${presets[preset].end}
+    ${start || presets[preset].start},
+    ${end || presets[preset].end}
   );
   background-image: -o-linear-gradient(
     ${angle}deg,
-    ${presets[preset].start},
-    ${presets[preset].end}
+    ${start || presets[preset].start},
+    ${end || presets[preset].end}
   );
   background-image: linear-gradient(
     ${angle}deg,
-    ${presets[preset].start},
-    ${presets[preset].end}
+    ${start || presets[preset].start},
+    ${end || presets[preset].end}
   );
 `;
 
@@ -30,27 +30,29 @@ export const radialGradient = ({
   extent,
   shape = "circle",
   position = "center",
+  start,
+  end,
 }) =>
   css`
     background-image: -webkit-radial-gradient(
       ${shape} ${extent} at ${position},
-      ${presets[preset].start},
-      ${presets[preset].end}
+      ${start || presets[preset].start},
+      ${end || presets[preset].end}
     );
     background-image: -moz-radial-gradient(
       ${shape} ${extent} at ${position},
-      ${presets[preset].start},
-      ${presets[preset].end}
+      ${start || presets[preset].start},
+      ${end || presets[preset].end}
     );
     background-image: -o-radial-gradient(
       ${shape} ${extent} at ${position},
-      ${presets[preset].start},
-      ${presets[preset].end}
+      ${start || presets[preset].start},
+      ${end || presets[preset].end}
     );
     background-image: radial-gradient(
       ${shape} ${extent} at ${position},
-      ${presets[preset].start},
-      ${presets[preset].end}
+      ${start || presets[preset].start},
+      ${end || presets[preset].end}
     );
     background-position: center;
   `;

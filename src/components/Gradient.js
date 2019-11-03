@@ -6,7 +6,7 @@ import generator from "../generator";
 import withPresets from "../hoc/withPresets";
 
 function GradientContainer(props) {
-  const { gradient, angle, ...rest } = props;
+  const { gradient, angle, type, textMask, scale, start, end, ...rest } = props;
   return <div {...rest} />;
 }
 
@@ -21,6 +21,8 @@ Gradient.propTypes = {
   type: PropTypes.string,
   textMask: PropTypes.bool,
   scale: PropTypes.string,
+  start: PropTypes.string,
+  end: PropTypes.string,
 };
 
 Gradient.defaultProps = {

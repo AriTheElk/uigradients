@@ -7,7 +7,15 @@
   <img alt="GitHub" src="https://img.shields.io/github/license/garetmckinley/uigradients?color=mediumslateblue&style=for-the-badge">
 </p>
 
-## Installation
+* [💾 Installation](#-installation)
+* [📚 Docs](#-docs)
+* [🏗 Usage Examples](#-usage-examples)
+* [🔨 Command Topics](#-command-topics)
+* [💻 Contributing](#-contributing)
+* [📜 License](#-license)
+
+
+## 💾 Installation
 
     npm install --save uigradients
 
@@ -15,9 +23,23 @@ or
 
     yarn add uigradients
 
-#### [Go to the interactive docs →](https://garetmckinley.github.io/uigradients)
 
-## Examples
+## 📚 Docs
+
+### Components
+
+- [`Gradient`](https://garetmckinley.github.io/uigradients/?path=/docs/documentation-gradient--linear-gradient)
+- [`GradientProvider`](https://garetmckinley.github.io/uigradients/?path=/docs/documentation-gradientprovider--usage)
+
+### Utilities
+
+- [`generator`]()
+  
+
+#### [Or, go to the interactive docs →](https://garetmckinley.github.io/uigradients)
+
+
+## 🏗 Usage Examples
 ### Linear Gradient Component
 
 ``` jsx
@@ -37,7 +59,7 @@ class App extends Component {
 ```
 > ###### `cherry` is only one of the many presets provided by [_`uigradients`_](https://jsbros.github.io/uigradients/)
 > A complete list of the gradient presets can be previewed [here](https://0df99f9c-6d93-4766-a009-1f633aa91579.sbook.io/).
-> You can use your own preset library via `GradientProvider`
+> You can use your own preset library via [`GradientProvider`](https://garetmckinley.github.io/uigradients/?path=/docs/documentation-gradientprovider--usage)
 
 ### Radial Gradient Component
 
@@ -129,9 +151,9 @@ const RadialComponent = styled.div`
 ![Radial gradient](https://i.imgur.com/PcyFqtx.jpg)
 
 
-## License
+## 📜 License
 
 This package is released under the [MIT License](LICENSE)
 
 
-<img src="https://raw.githubusercontent.com/syntra/assets/master/syntra-sponsorship.svg?sanitize=true"/>
+<img src="https://raw.githubusercontent.com/syntra/assets/master/syntra-sponsorship.svg?sanitize=true" alt="sponsored by syntra.io"/>

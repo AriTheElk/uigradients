@@ -10,8 +10,6 @@
 * [💾 Installation](#-installation)
 * [📚 Docs](#-docs)
 * [🏗 Usage Examples](#-usage-examples)
-* [🔨 Command Topics](#-command-topics)
-* [💻 Contributing](#-contributing)
 * [📜 License](#-license)
 
 

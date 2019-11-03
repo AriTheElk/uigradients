@@ -36,7 +36,9 @@ Out of the box, uigradients ships with the lovely gradient library found at <a h
 
 <Preview>
   <Story name="Usage">
-    <GradientProvider presets={{ alihossein: ["#f7ff00", "#db36a4"] }}>
+    <GradientProvider
+      presets={{ alihossein: { start: "#f7ff00", end: "#db36a4" } }}
+    >
       <Gradient>Test</Gradient>
     </GradientProvider>
   </Story>

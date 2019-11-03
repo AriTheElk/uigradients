@@ -1,26 +1,26 @@
 import { css } from "styled-components";
 
 export const linearGradient = ({ presets, preset, angle }) => css`
-  background-color: ${presets[preset][0]};
+  background-color: ${presets[preset].start};
   background-image: -webkit-linear-gradient(
     ${angle}deg,
-    ${presets[preset][0]},
-    ${presets[preset][1]}
+    ${presets[preset].start},
+    ${presets[preset].end}
   );
   background-image: -moz-linear-gradient(
     ${angle}deg,
-    ${presets[preset][0]},
-    ${presets[preset][1]}
+    ${presets[preset].start},
+    ${presets[preset].end}
   );
   background-image: -o-linear-gradient(
     ${angle}deg,
-    ${presets[preset][0]},
-    ${presets[preset][1]}
+    ${presets[preset].start},
+    ${presets[preset].end}
   );
   background-image: linear-gradient(
     ${angle}deg,
-    ${presets[preset][0]},
-    ${presets[preset][1]}
+    ${presets[preset].start},
+    ${presets[preset].end}
   );
 `;
 
@@ -34,23 +34,23 @@ export const radialGradient = ({
   css`
     background-image: -webkit-radial-gradient(
       ${shape} ${extent} at ${position},
-      ${presets[preset][0]},
-      ${presets[preset][1]}
+      ${presets[preset].start},
+      ${presets[preset].end}
     );
     background-image: -moz-radial-gradient(
       ${shape} ${extent} at ${position},
-      ${presets[preset][0]},
-      ${presets[preset][1]}
+      ${presets[preset].start},
+      ${presets[preset].end}
     );
     background-image: -o-radial-gradient(
       ${shape} ${extent} at ${position},
-      ${presets[preset][0]},
-      ${presets[preset][1]}
+      ${presets[preset].start},
+      ${presets[preset].end}
     );
     background-image: radial-gradient(
       ${shape} ${extent} at ${position},
-      ${presets[preset][0]},
-      ${presets[preset][1]}
+      ${presets[preset].start},
+      ${presets[preset].end}
     );
     background-position: center;
   `;

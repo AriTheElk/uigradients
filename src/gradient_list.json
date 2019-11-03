@@ -1,192 +1,762 @@
 {
-  "a_lost_memory": ["#DE6262", "#FFB88C"],
-  "ali": ["#ff4b1f", "#1fddff"],
-  "alihossein": ["#f7ff00", "#db36a4"],
-  "almost": ["#ddd6f3", "#faaca8"],
-  "amethyst": ["#9D50BB", "#6E48AA"],
-  "aqua_marine": ["#1A2980", "#26D0CE"],
-  "aqualicious": ["#50C9C3", "#96DEDA"],
-  "army": ["#414d0b", "#727a17"],
-  "ash": ["#606c88", "#3f4c6b"],
-  "aubergine": ["#AA076B", "#61045F"],
-  "autumn": ["#DAD299", "#B0DAB9"],
-  "azure_pop": ["#ef32d9", "#89fffd"],
-  "back_to_earth": ["#00C9FF", "#92FE9D"],
-  "back_to_the_future": ["#C02425", "#F0CB35"],
-  "behongo": ["#52c234", "#061700"],
-  "between_night_and_day": ["#2c3e50", "#3498db"],
-  "between_the_clouds": ["#73C8A9", "#373B44"],
-  "black_rose": ["#f4c4f3", "#fc67fa"],
-  "blood_red": ["#f85032", "#e73827"],
-  "bloody_mary": ["#FF512F", "#DD2476"],
-  "blurry_beach": ["#d53369", "#cbad6d"],
-  "blush": ["#B24592", "#F15F79"],
-  "bora_bora": ["#2BC0E4", "#EAECC6"],
-  "bourbon": ["#EC6F66", "#F3A183"],
-  "brady_brady_fun_fun": ["#00c3ff", "#ffff1c"],
-  "bright_vault": ["#00d2ff", "#928DAB"],
-  "calm_darya": ["#5f2c82", "#49a09d"],
-  "candy": ["#D3959B", "#BFE6BA"],
-  "cheer_up_emo_kid": ["#556270", "#FF6B6B"],
-  "cherry": ["#EB3349", "#F45C43"],
-  "cherryblossoms": ["#FBD3E9", "#BB377D"],
-  "christmas": ["#2F7336", "#AA3A38"],
-  "clear_sky": ["#005C97", "#363795"],
-  "clouds": ["#ECE9E6", "#FFFFFF"],
-  "colors_of_sky": ["#E0EAFC", "#CFDEF3"],
-  "cool_brown": ["#603813", "#b29f94"],
-  "cosmic_fusion": ["#ff00cc", "#333399"],
-  "crazy_orange_i": ["#D38312", "#A83279"],
-  "curiosity_blue": ["#525252", "#3d72b4"],
-  "dance_to_forget": ["#FF4E50", "#F9D423"],
-  "dania": ["#BE93C5", "#7BC6CC"],
-  "dark_knight": ["#BA8B02", "#181818"],
-  "dark_skies": ["#4B79A1", "#283E51"],
-  "dawn": ["#F3904F", "#3B4371"],
-  "day_tripper": ["#f857a6", "#ff5858"],
-  "decent": ["#4CA1AF", "#C4E0E5"],
-  "deep_purple": ["#673AB7", "#512DA8"],
-  "deep_sea_space": ["#2C3E50", "#4CA1AF"],
-  "deep_space": ["#000000", "#434343"],
-  "dirty_fog": ["#B993D6", "#8CA6DB"],
-  "disco": ["#4ECDC4", "#556270"],
-  "dracula": ["#DC2424", "#4A569D"],
-  "dusk": ["#ffd89b", "#19547b"],
-  "dusk_alt": ["#2C3E50", "#FD746C"],
-  "earthly": ["#649173", "#DBD5A4"],
-  "eds_sunset_gradient": ["#ff7e5f", "#feb47b"],
-  "eighties_purple": ["#41295a", "#2F0743"],
-  "electric_violet": ["#4776E6", "#8E54E9"],
-  "emerald_water": ["#348F50", "#56B4D3"],
-  "endless_river": ["#43cea2", "#185a9d"],
-  "facebook_messenger": ["#00c6ff", "#0072ff"],
-  "fifty_shades_of_grey": ["#bdc3c7", "#2c3e50"],
-  "firewatch": ["#cb2d3e", "#ef473a"],
-  "flickr": ["#ff0084", "#33001b"],
-  "forest": ["#5A3F37", "#2C7744"],
-  "forever_lost": ["#5D4157", "#A8CABA"],
-  "fresh_turboscent": ["#F1F2B5", "#135058"],
-  "friday": ["#83a4d4", "#b6fbff"],
-  "frost": ["#000428", "#004e92"],
-  "frozen": ["#403B4A", "#E7E9BB"],
-  "grapefruit_sunset": ["#e96443", "#904e95"],
-  "green_and_blue": ["#c2e59c", "#64b3f4"],
-  "green_beach": ["#02AAB0", "#00CDAC"],
-  "green_to_dark": ["#6A9113", "#141517"],
-  "haikus": ["#fd746c", "#ff9068"],
-  "harmonic_energy": ["#16A085", "#F4D03F"],
-  "hersheys": ["#1e130c", "#9a8478"],
-  "horizon": ["#003973", "#E5E5BE"],
-  "ibiza_sunset": ["#ee0979", "#ff6a00"],
-  "iiit_delhi": ["#808080", "#3fada8"],
-  "inbox": ["#457fca", "#5691c8"],
-  "influenza": ["#C04848", "#480048"],
-  "instagram": ["#517fa4", "#243949"],
-  "intuitive_purple": ["#DA22FF", "#9733EE"],
-  "jonquil": ["#FFEEEE", "#DDEFBB"],
-  "joomla": ["#1e3c72", "#2a5298"],
-  "juicy_orange": ["#FF8008", "#FFC837"],
-  "kashmir": ["#614385", "#516395"],
-  "koko_caramel": ["#D1913C", "#FFD194"],
-  "kyoto": ["#c21500", "#ffc500"],
-  "lemon_twist": ["#3CA55C", "#B5AC49"],
-  "light_orange": ["#FFB75E", "#ED8F03"],
-  "limeade": ["#A1FFCE", "#FAFFD1"],
-  "little_leaf": ["#76b852", "#8DC26F"],
-  "lizard": ["#304352", "#d7d2cc"],
-  "love_couple": ["#3a6186", "#89253e"],
-  "lush": ["#56ab2f", "#a8e063"],
-  "man_of_steel": ["#780206", "#061161"],
-  "mango_pulp": ["#F09819", "#EDDE5D"],
-  "mantle": ["#24C6DC", "#514A9D"],
-  "martini": ["#FDFC47", "#24FE41"],
-  "master_card": ["#f46b45", "#eea849"],
-  "mauve": ["#42275a", "#734b6d"],
-  "metallic_toad": ["#abbaab", "#ffffff"],
-  "miaka": ["#FC354C", "#0ABFBC"],
-  "miami_dolphins": ["#4DA0B0", "#D39D38"],
-  "midnight_city": ["#232526", "#414345"],
-  "mild": ["#67B26F", "#4ca2cd"],
-  "minimal_red": ["#F00000", "#DC281E"],
-  "minnesota_vikings": ["#5614B0", "#DBD65C"],
-  "mirage": ["#16222A", "#3A6073"],
-  "misty_meadow": ["#215f00", "#e4e4d9"],
-  "mojito": ["#1D976C", "#93F9B9"],
-  "moonrise": ["#DAE2F8", "#D6A4A4"],
-  "moor": ["#616161", "#9bc5c3"],
-  "moss": ["#134E5E", "#71B280"],
-  "mystic": ["#757F9A", "#D7DDE8"],
-  "namn": ["#a73737", "#7a2828"],
-  "neon_life": ["#B3FFAB", "#12FFF7"],
-  "nepal": ["#de6161", "#2657eb"],
-  "netflix": ["#8E0E00", "#1F1C18"],
-  "nighthawk": ["#2980b9", "#2c3e50"],
-  "noon_to_dusk": ["#ff6e7f", "#bfe9ff"],
-  "opa": ["#3D7EAA", "#FFE47A"],
-  "pale_wood": ["#eacda3", "#d6ae7b"],
-  "parklife": ["#ADD100", "#7B920A"],
-  "passion": ["#e53935", "#e35d5b"],
-  "pastel_orange_at_the_sun": ["#ffb347", "#ffcc33"],
-  "peach": ["#ED4264", "#FFEDBC"],
-  "petrichor": ["#666600", "#999966"],
-  "piglet": ["#ee9ca7", "#ffdde1"],
-  "pinky": ["#DD5E89", "#F7BB97"],
-  "pinot_noir": ["#4b6cb7", "#182848"],
-  "pizelex": ["#114357", "#F29492"],
-  "playing_with_reds": ["#D31027", "#EA384D"],
-  "politics": ["#2196f3", "#f44336"],
-  "poncho": ["#403A3E", "#BE5869"],
-  "portrait": ["#8e9eab", "#eef2f3"],
-  "predawn": ["#FFA17F", "#00223E"],
-  "purple_bliss": ["#360033", "#0b8793"],
-  "purple_paradise": ["#1D2B64", "#F8CDDA"],
-  "purple_white": ["#BA5370", "#F4E2D8"],
-  "purplin": ["#6a3093", "#a044ff"],
-  "red_mist": ["#000000", "#e74c3c"],
-  "red_ocean": ["#1D4350", "#A43931"],
-  "reef": ["#00d2ff", "#3a7bd5"],
-  "rose_water": ["#E55D87", "#5FC3E4"],
-  "royal": ["#141E30", "#243B55"],
-  "sage_persuasion": ["#CCCCB2", "#757519"],
-  "sea_blizz": ["#1CD8D2", "#93EDC7"],
-  "sea_weed": ["#4CB8C4", "#3CD3AD"],
-  "servquick": ["#485563", "#29323c"],
-  "shadow_night": ["#000000", "#53346D"],
-  "shahabi": ["#a80077", "#66ff00"],
-  "sherbert": ["#f79d00", "#64f38c"],
-  "shore": ["#70e1f5", "#ffd194"],
-  "shrimpy": ["#e43a15", "#e65245"],
-  "shroom_haze": ["#5C258D", "#4389A2"],
-  "sirius_tamed": ["#EFEFBB", "#D4D3DD"],
-  "snapchat": ["#fffc00", "#ffffff"],
-  "solid_vault": ["#3a7bd5", "#3a6073"],
-  "soundcloud": ["#fe8c00", "#f83600"],
-  "starfall": ["#F0C27B", "#4B1248"],
-  "steel_gray": ["#1F1C2C", "#928DAB"],
-  "stellar": ["#7474BF", "#348AC7"],
-  "sun_on_the_horizon": ["#fceabb", "#f8b500"],
-  "sunny_days": ["#EDE574", "#E1F5C4"],
-  "sunrise": ["#FF512F", "#F09819"],
-  "sunset": ["#0B486B", "#F56217"],
-  "superman": ["#0099F7", "#F11712"],
-  "suzy": ["#834d9b", "#d04ed6"],
-  "sweet_morning": ["#FF5F6D", "#FFC371"],
-  "sylvia": ["#ff4b1f", "#ff9068"],
-  "talking_to_mice_elf": ["#948E99", "#2E1437"],
-  "teal_love": ["#AAFFA9", "#11FFBD"],
-  "the_strain": ["#870000", "#190A05"],
-  "timber": ["#fc00ff", "#00dbde"],
-  "titanium": ["#283048", "#859398"],
-  "tranquil": ["#EECDA3", "#EF629F"],
-  "transfile": ["#16BFFD", "#CB3066"],
-  "turquoise_flow": ["#136a8a", "#267871"],
-  "twitch": ["#6441A5", "#2a0845"],
-  "ukraine": ["#004FF9", "#FFF94C"],
-  "vasily": ["#e9d362", "#333333"],
-  "venice_blue": ["#085078", "#85D8CE"],
-  "vine": ["#00bf8f", "#001510"],
-  "virgin": ["#C9FFBF", "#FFAFBD"],
-  "virgin_america": ["#7b4397", "#dc2430"],
-  "winter": ["#E6DADA", "#274046"],
-  "youtube": ["#e52d27", "#b31217"]
+  "a_lost_memory": {
+    "start": "#DE6262",
+    "end": "#FFB88C"
+  },
+  "ali": {
+    "start": "#ff4b1f",
+    "end": "#1fddff"
+  },
+  "alihossein": {
+    "start": "#f7ff00",
+    "end": "#db36a4"
+  },
+  "almost": {
+    "start": "#ddd6f3",
+    "end": "#faaca8"
+  },
+  "amethyst": {
+    "start": "#9D50BB",
+    "end": "#6E48AA"
+  },
+  "aqua_marine": {
+    "start": "#1A2980",
+    "end": "#26D0CE"
+  },
+  "aqualicious": {
+    "start": "#50C9C3",
+    "end": "#96DEDA"
+  },
+  "army": {
+    "start": "#414d0b",
+    "end": "#727a17"
+  },
+  "ash": {
+    "start": "#606c88",
+    "end": "#3f4c6b"
+  },
+  "aubergine": {
+    "start": "#AA076B",
+    "end": "#61045F"
+  },
+  "autumn": {
+    "start": "#DAD299",
+    "end": "#B0DAB9"
+  },
+  "azure_pop": {
+    "start": "#ef32d9",
+    "end": "#89fffd"
+  },
+  "back_to_earth": {
+    "start": "#00C9FF",
+    "end": "#92FE9D"
+  },
+  "back_to_the_future": {
+    "start": "#C02425",
+    "end": "#F0CB35"
+  },
+  "behongo": {
+    "start": "#52c234",
+    "end": "#061700"
+  },
+  "between_night_and_day": {
+    "start": "#2c3e50",
+    "end": "#3498db"
+  },
+  "between_the_clouds": {
+    "start": "#73C8A9",
+    "end": "#373B44"
+  },
+  "black_rose": {
+    "start": "#f4c4f3",
+    "end": "#fc67fa"
+  },
+  "blood_red": {
+    "start": "#f85032",
+    "end": "#e73827"
+  },
+  "bloody_mary": {
+    "start": "#FF512F",
+    "end": "#DD2476"
+  },
+  "blurry_beach": {
+    "start": "#d53369",
+    "end": "#cbad6d"
+  },
+  "blush": {
+    "start": "#B24592",
+    "end": "#F15F79"
+  },
+  "bora_bora": {
+    "start": "#2BC0E4",
+    "end": "#EAECC6"
+  },
+  "bourbon": {
+    "start": "#EC6F66",
+    "end": "#F3A183"
+  },
+  "brady_brady_fun_fun": {
+    "start": "#00c3ff",
+    "end": "#ffff1c"
+  },
+  "bright_vault": {
+    "start": "#00d2ff",
+    "end": "#928DAB"
+  },
+  "calm_darya": {
+    "start": "#5f2c82",
+    "end": "#49a09d"
+  },
+  "candy": {
+    "start": "#D3959B",
+    "end": "#BFE6BA"
+  },
+  "cheer_up_emo_kid": {
+    "start": "#556270",
+    "end": "#FF6B6B"
+  },
+  "cherry": {
+    "start": "#EB3349",
+    "end": "#F45C43"
+  },
+  "cherryblossoms": {
+    "start": "#FBD3E9",
+    "end": "#BB377D"
+  },
+  "christmas": {
+    "start": "#2F7336",
+    "end": "#AA3A38"
+  },
+  "clear_sky": {
+    "start": "#005C97",
+    "end": "#363795"
+  },
+  "clouds": {
+    "start": "#ECE9E6",
+    "end": "#FFFFFF"
+  },
+  "colors_of_sky": {
+    "start": "#E0EAFC",
+    "end": "#CFDEF3"
+  },
+  "cool_brown": {
+    "start": "#603813",
+    "end": "#b29f94"
+  },
+  "cosmic_fusion": {
+    "start": "#ff00cc",
+    "end": "#333399"
+  },
+  "crazy_orange_i": {
+    "start": "#D38312",
+    "end": "#A83279"
+  },
+  "curiosity_blue": {
+    "start": "#525252",
+    "end": "#3d72b4"
+  },
+  "dance_to_forget": {
+    "start": "#FF4E50",
+    "end": "#F9D423"
+  },
+  "dania": {
+    "start": "#BE93C5",
+    "end": "#7BC6CC"
+  },
+  "dark_knight": {
+    "start": "#BA8B02",
+    "end": "#181818"
+  },
+  "dark_skies": {
+    "start": "#4B79A1",
+    "end": "#283E51"
+  },
+  "dawn": {
+    "start": "#F3904F",
+    "end": "#3B4371"
+  },
+  "day_tripper": {
+    "start": "#f857a6",
+    "end": "#ff5858"
+  },
+  "decent": {
+    "start": "#4CA1AF",
+    "end": "#C4E0E5"
+  },
+  "deep_purple": {
+    "start": "#673AB7",
+    "end": "#512DA8"
+  },
+  "deep_sea_space": {
+    "start": "#2C3E50",
+    "end": "#4CA1AF"
+  },
+  "deep_space": {
+    "start": "#000000",
+    "end": "#434343"
+  },
+  "dirty_fog": {
+    "start": "#B993D6",
+    "end": "#8CA6DB"
+  },
+  "disco": {
+    "start": "#4ECDC4",
+    "end": "#556270"
+  },
+  "dracula": {
+    "start": "#DC2424",
+    "end": "#4A569D"
+  },
+  "dusk": {
+    "start": "#ffd89b",
+    "end": "#19547b"
+  },
+  "dusk_alt": {
+    "start": "#2C3E50",
+    "end": "#FD746C"
+  },
+  "earthly": {
+    "start": "#649173",
+    "end": "#DBD5A4"
+  },
+  "eds_sunset_gradient": {
+    "start": "#ff7e5f",
+    "end": "#feb47b"
+  },
+  "eighties_purple": {
+    "start": "#41295a",
+    "end": "#2F0743"
+  },
+  "electric_violet": {
+    "start": "#4776E6",
+    "end": "#8E54E9"
+  },
+  "emerald_water": {
+    "start": "#348F50",
+    "end": "#56B4D3"
+  },
+  "endless_river": {
+    "start": "#43cea2",
+    "end": "#185a9d"
+  },
+  "facebook_messenger": {
+    "start": "#00c6ff",
+    "end": "#0072ff"
+  },
+  "fifty_shades_of_grey": {
+    "start": "#bdc3c7",
+    "end": "#2c3e50"
+  },
+  "firewatch": {
+    "start": "#cb2d3e",
+    "end": "#ef473a"
+  },
+  "flickr": {
+    "start": "#ff0084",
+    "end": "#33001b"
+  },
+  "forest": {
+    "start": "#5A3F37",
+    "end": "#2C7744"
+  },
+  "forever_lost": {
+    "start": "#5D4157",
+    "end": "#A8CABA"
+  },
+  "fresh_turboscent": {
+    "start": "#F1F2B5",
+    "end": "#135058"
+  },
+  "friday": {
+    "start": "#83a4d4",
+    "end": "#b6fbff"
+  },
+  "frost": {
+    "start": "#000428",
+    "end": "#004e92"
+  },
+  "frozen": {
+    "start": "#403B4A",
+    "end": "#E7E9BB"
+  },
+  "grapefruit_sunset": {
+    "start": "#e96443",
+    "end": "#904e95"
+  },
+  "green_and_blue": {
+    "start": "#c2e59c",
+    "end": "#64b3f4"
+  },
+  "green_beach": {
+    "start": "#02AAB0",
+    "end": "#00CDAC"
+  },
+  "green_to_dark": {
+    "start": "#6A9113",
+    "end": "#141517"
+  },
+  "haikus": {
+    "start": "#fd746c",
+    "end": "#ff9068"
+  },
+  "harmonic_energy": {
+    "start": "#16A085",
+    "end": "#F4D03F"
+  },
+  "hersheys": {
+    "start": "#1e130c",
+    "end": "#9a8478"
+  },
+  "horizon": {
+    "start": "#003973",
+    "end": "#E5E5BE"
+  },
+  "ibiza_sunset": {
+    "start": "#ee0979",
+    "end": "#ff6a00"
+  },
+  "iiit_delhi": {
+    "start": "#808080",
+    "end": "#3fada8"
+  },
+  "inbox": {
+    "start": "#457fca",
+    "end": "#5691c8"
+  },
+  "influenza": {
+    "start": "#C04848",
+    "end": "#480048"
+  },
+  "instagram": {
+    "start": "#517fa4",
+    "end": "#243949"
+  },
+  "intuitive_purple": {
+    "start": "#DA22FF",
+    "end": "#9733EE"
+  },
+  "jonquil": {
+    "start": "#FFEEEE",
+    "end": "#DDEFBB"
+  },
+  "joomla": {
+    "start": "#1e3c72",
+    "end": "#2a5298"
+  },
+  "juicy_orange": {
+    "start": "#FF8008",
+    "end": "#FFC837"
+  },
+  "kashmir": {
+    "start": "#614385",
+    "end": "#516395"
+  },
+  "koko_caramel": {
+    "start": "#D1913C",
+    "end": "#FFD194"
+  },
+  "kyoto": {
+    "start": "#c21500",
+    "end": "#ffc500"
+  },
+  "lemon_twist": {
+    "start": "#3CA55C",
+    "end": "#B5AC49"
+  },
+  "light_orange": {
+    "start": "#FFB75E",
+    "end": "#ED8F03"
+  },
+  "limeade": {
+    "start": "#A1FFCE",
+    "end": "#FAFFD1"
+  },
+  "little_leaf": {
+    "start": "#76b852",
+    "end": "#8DC26F"
+  },
+  "lizard": {
+    "start": "#304352",
+    "end": "#d7d2cc"
+  },
+  "love_couple": {
+    "start": "#3a6186",
+    "end": "#89253e"
+  },
+  "lush": {
+    "start": "#56ab2f",
+    "end": "#a8e063"
+  },
+  "man_of_steel": {
+    "start": "#780206",
+    "end": "#061161"
+  },
+  "mango_pulp": {
+    "start": "#F09819",
+    "end": "#EDDE5D"
+  },
+  "mantle": {
+    "start": "#24C6DC",
+    "end": "#514A9D"
+  },
+  "martini": {
+    "start": "#FDFC47",
+    "end": "#24FE41"
+  },
+  "master_card": {
+    "start": "#f46b45",
+    "end": "#eea849"
+  },
+  "mauve": {
+    "start": "#42275a",
+    "end": "#734b6d"
+  },
+  "metallic_toad": {
+    "start": "#abbaab",
+    "end": "#ffffff"
+  },
+  "miaka": {
+    "start": "#FC354C",
+    "end": "#0ABFBC"
+  },
+  "miami_dolphins": {
+    "start": "#4DA0B0",
+    "end": "#D39D38"
+  },
+  "midnight_city": {
+    "start": "#232526",
+    "end": "#414345"
+  },
+  "mild": {
+    "start": "#67B26F",
+    "end": "#4ca2cd"
+  },
+  "minimal_red": {
+    "start": "#F00000",
+    "end": "#DC281E"
+  },
+  "minnesota_vikings": {
+    "start": "#5614B0",
+    "end": "#DBD65C"
+  },
+  "mirage": {
+    "start": "#16222A",
+    "end": "#3A6073"
+  },
+  "misty_meadow": {
+    "start": "#215f00",
+    "end": "#e4e4d9"
+  },
+  "mojito": {
+    "start": "#1D976C",
+    "end": "#93F9B9"
+  },
+  "moonrise": {
+    "start": "#DAE2F8",
+    "end": "#D6A4A4"
+  },
+  "moor": {
+    "start": "#616161",
+    "end": "#9bc5c3"
+  },
+  "moss": {
+    "start": "#134E5E",
+    "end": "#71B280"
+  },
+  "mystic": {
+    "start": "#757F9A",
+    "end": "#D7DDE8"
+  },
+  "namn": {
+    "start": "#a73737",
+    "end": "#7a2828"
+  },
+  "neon_life": {
+    "start": "#B3FFAB",
+    "end": "#12FFF7"
+  },
+  "nepal": {
+    "start": "#de6161",
+    "end": "#2657eb"
+  },
+  "netflix": {
+    "start": "#8E0E00",
+    "end": "#1F1C18"
+  },
+  "nighthawk": {
+    "start": "#2980b9",
+    "end": "#2c3e50"
+  },
+  "noon_to_dusk": {
+    "start": "#ff6e7f",
+    "end": "#bfe9ff"
+  },
+  "opa": {
+    "start": "#3D7EAA",
+    "end": "#FFE47A"
+  },
+  "pale_wood": {
+    "start": "#eacda3",
+    "end": "#d6ae7b"
+  },
+  "parklife": {
+    "start": "#ADD100",
+    "end": "#7B920A"
+  },
+  "passion": {
+    "start": "#e53935",
+    "end": "#e35d5b"
+  },
+  "pastel_orange_at_the_sun": {
+    "start": "#ffb347",
+    "end": "#ffcc33"
+  },
+  "peach": {
+    "start": "#ED4264",
+    "end": "#FFEDBC"
+  },
+  "petrichor": {
+    "start": "#666600",
+    "end": "#999966"
+  },
+  "piglet": {
+    "start": "#ee9ca7",
+    "end": "#ffdde1"
+  },
+  "pinky": {
+    "start": "#DD5E89",
+    "end": "#F7BB97"
+  },
+  "pinot_noir": {
+    "start": "#4b6cb7",
+    "end": "#182848"
+  },
+  "pizelex": {
+    "start": "#114357",
+    "end": "#F29492"
+  },
+  "playing_with_reds": {
+    "start": "#D31027",
+    "end": "#EA384D"
+  },
+  "politics": {
+    "start": "#2196f3",
+    "end": "#f44336"
+  },
+  "poncho": {
+    "start": "#403A3E",
+    "end": "#BE5869"
+  },
+  "portrait": {
+    "start": "#8e9eab",
+    "end": "#eef2f3"
+  },
+  "predawn": {
+    "start": "#FFA17F",
+    "end": "#00223E"
+  },
+  "purple_bliss": {
+    "start": "#360033",
+    "end": "#0b8793"
+  },
+  "purple_paradise": {
+    "start": "#1D2B64",
+    "end": "#F8CDDA"
+  },
+  "purple_white": {
+    "start": "#BA5370",
+    "end": "#F4E2D8"
+  },
+  "purplin": {
+    "start": "#6a3093",
+    "end": "#a044ff"
+  },
+  "red_mist": {
+    "start": "#000000",
+    "end": "#e74c3c"
+  },
+  "red_ocean": {
+    "start": "#1D4350",
+    "end": "#A43931"
+  },
+  "reef": {
+    "start": "#00d2ff",
+    "end": "#3a7bd5"
+  },
+  "rose_water": {
+    "start": "#E55D87",
+    "end": "#5FC3E4"
+  },
+  "royal": {
+    "start": "#141E30",
+    "end": "#243B55"
+  },
+  "sage_persuasion": {
+    "start": "#CCCCB2",
+    "end": "#757519"
+  },
+  "sea_blizz": {
+    "start": "#1CD8D2",
+    "end": "#93EDC7"
+  },
+  "sea_weed": {
+    "start": "#4CB8C4",
+    "end": "#3CD3AD"
+  },
+  "servquick": {
+    "start": "#485563",
+    "end": "#29323c"
+  },
+  "shadow_night": {
+    "start": "#000000",
+    "end": "#53346D"
+  },
+  "shahabi": {
+    "start": "#a80077",
+    "end": "#66ff00"
+  },
+  "sherbert": {
+    "start": "#f79d00",
+    "end": "#64f38c"
+  },
+  "shore": {
+    "start": "#70e1f5",
+    "end": "#ffd194"
+  },
+  "shrimpy": {
+    "start": "#e43a15",
+    "end": "#e65245"
+  },
+  "shroom_haze": {
+    "start": "#5C258D",
+    "end": "#4389A2"
+  },
+  "sirius_tamed": {
+    "start": "#EFEFBB",
+    "end": "#D4D3DD"
+  },
+  "snapchat": {
+    "start": "#fffc00",
+    "end": "#ffffff"
+  },
+  "solid_vault": {
+    "start": "#3a7bd5",
+    "end": "#3a6073"
+  },
+  "soundcloud": {
+    "start": "#fe8c00",
+    "end": "#f83600"
+  },
+  "starfall": {
+    "start": "#F0C27B",
+    "end": "#4B1248"
+  },
+  "steel_gray": {
+    "start": "#1F1C2C",
+    "end": "#928DAB"
+  },
+  "stellar": {
+    "start": "#7474BF",
+    "end": "#348AC7"
+  },
+  "sun_on_the_horizon": {
+    "start": "#fceabb",
+    "end": "#f8b500"
+  },
+  "sunny_days": {
+    "start": "#EDE574",
+    "end": "#E1F5C4"
+  },
+  "sunrise": {
+    "start": "#FF512F",
+    "end": "#F09819"
+  },
+  "sunset": {
+    "start": "#0B486B",
+    "end": "#F56217"
+  },
+  "superman": {
+    "start": "#0099F7",
+    "end": "#F11712"
+  },
+  "suzy": {
+    "start": "#834d9b",
+    "end": "#d04ed6"
+  },
+  "sweet_morning": {
+    "start": "#FF5F6D",
+    "end": "#FFC371"
+  },
+  "sylvia": {
+    "start": "#ff4b1f",
+    "end": "#ff9068"
+  },
+  "talking_to_mice_elf": {
+    "start": "#948E99",
+    "end": "#2E1437"
+  },
+  "teal_love": {
+    "start": "#AAFFA9",
+    "end": "#11FFBD"
+  },
+  "the_strain": {
+    "start": "#870000",
+    "end": "#190A05"
+  },
+  "timber": {
+    "start": "#fc00ff",
+    "end": "#00dbde"
+  },
+  "titanium": {
+    "start": "#283048",
+    "end": "#859398"
+  },
+  "tranquil": {
+    "start": "#EECDA3",
+    "end": "#EF629F"
+  },
+  "transfile": {
+    "start": "#16BFFD",
+    "end": "#CB3066"
+  },
+  "turquoise_flow": {
+    "start": "#136a8a",
+    "end": "#267871"
+  },
+  "twitch": {
+    "start": "#6441A5",
+    "end": "#2a0845"
+  },
+  "ukraine": {
+    "start": "#004FF9",
+    "end": "#FFF94C"
+  },
+  "vasily": {
+    "start": "#e9d362",
+    "end": "#333333"
+  },
+  "venice_blue": {
+    "start": "#085078",
+    "end": "#85D8CE"
+  },
+  "vine": {
+    "start": "#00bf8f",
+    "end": "#001510"
+  },
+  "virgin": {
+    "start": "#C9FFBF",
+    "end": "#FFAFBD"
+  },
+  "virgin_america": {
+    "start": "#7b4397",
+    "end": "#dc2430"
+  },
+  "winter": {
+    "start": "#E6DADA",
+    "end": "#274046"
+  },
+  "youtube": {
+    "start": "#e52d27",
+    "end": "#b31217"
+  }
 }

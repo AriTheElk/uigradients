@@ -22,7 +22,6 @@ export const StyledGradient = styled(Gradient)`
   color: #fff;
   font-family: sans-serif;
   margin-bottom: 30px;
-  width: 30%;
   height: 100px;
   text-align: center;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.6);
@@ -30,16 +29,40 @@ export const StyledGradient = styled(Gradient)`
 
 <Meta title="Documentation|GradientProvider" component={Gradient} />
 
-# Default Gradient Presets
+# Custom Gradient Presets
 
-Out of the box, uigradients ships with the lovely gradient library found at <a href="http://uigradients.com" target="_blank">uigradients.com</a>.
+The `GradientProvider` allows you to pass a custom preset library into any `Gradient` component in your app. The recommended usage is to wrap as much of your app as you need in a `GradientProvider` and pass an object to the `presets` property. Like so:
+
+```jsx
+<GradientProvider
+  presets={{ alihossein: { start: "#f7ff00", end: "#db36a4" } }}
+>
+  <Gradient preset="alihossein">
+    This gradient is using the alihossein preset.
+  </Gradient>
+</GradientProvider>
+```
 
 <Preview>
   <Story name="Usage">
     <GradientProvider
       presets={{ alihossein: { start: "#f7ff00", end: "#db36a4" } }}
     >
-      <Gradient>Test</Gradient>
+      <StyledGradient preset="alihossein">
+        This gradient is using the alihossein preset.
+      </StyledGradient>
     </GradientProvider>
   </Story>
 </Preview>
+
+## Preset Structure
+
+```js
+{
+  "a_lost_memory": {
+    "start": "#DE6262",
+    "end": "#FFB88C"
+  },
+  // ...
+}
+```

@@ -12,7 +12,7 @@
     "lint": "eslint src",
     "lint:fix": "eslint --fix src",
     "storybook": "start-storybook -p 6006 --docs",
-    "build-storybook": "build-storybook --docs",
+    "build-storybook": "build-storybook --docs -s .storybook/static",
     "deploy-storybook": "storybook-to-ghpages"
   },
   "bugs": {
